@@ -4,7 +4,7 @@ ARG course="docker" \
     stdname="vinod" \
     duration="10hrs"
 ENV course=${course} \
-    name=${stdname} \
+    stdname=${stdname} \
     duration=${duration}
 RUN echo "Course is: ${course}, name: ${stdname}, duration: ${duration}"
 CMD ["sleep", "100"]
