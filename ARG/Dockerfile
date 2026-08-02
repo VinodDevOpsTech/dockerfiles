@@ -6,5 +6,5 @@ ARG course="docker" \
 ENV course=${course} \
     name=${stdname} \
     duration=${duration}
-RUN echo "Course is: ${course}, name: ${std-name}, duration: ${duration}"
+RUN echo "Course is: ${course}, name: ${stdname}, duration: ${duration}"
 CMD ["sleep", "100"]
